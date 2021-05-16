@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gatsby-starter-tailwindcss",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A Gatsby 3 starter with Tailwind CSS",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Richard Westmoreland <rawestmoreland@gmail.com>",
   "dependencies": {
     "autoprefixer": "^10.2.5",
     "gatsby": "^3.5.0",
@@ -27,12 +27,14 @@
     "prettier": "2.3.0"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "tailwind",
+    "tailwindcss"
   ],
-  "license": "0BSD",
+  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
